@@ -8,7 +8,11 @@ h1 {text-align: center;
     border-bottom: 1px solid #57b1dc;
     margin-top: 30px;}
 h2 {color: #d1633c;
-    font-size: 1em;}
+    font-size: 1em;
+    text-align: center}
+p{font-style: italic;
+    text-align: center;
+    color: rgb(65, 65, 65);}
 footer {border-top: 1px solid #57b1dc;
     text-align: center;
     padding-top: 1em;}
@@ -21,8 +25,6 @@ dt{font-weight: bold;
 strong{font-style: italic;
     color: tomato;}
 dt strong{color: tomato;}
-#info p{font-style: italic;
-    color: gray;}
 .price{font-family: Georgia, serif; 
     font-style: italic;
     color: gray;}
@@ -36,8 +38,7 @@ dt{font-weight: bold;
 strong{font-style: italic;
     color: tomato;}
 dt strong{color: tomato;}
-#info p{font-style: italic;
-    color: gray;}
+
 .price{font-family: Georgia, serif; 
     font-style: italic;
     color: gray;}
@@ -46,6 +47,13 @@ dt strong{color: tomato;}
     font-style: normal;}
 p.warning, sup{font-size: small;
     color: red;}
-h1, h2, #info{text-align: center;}
 h2 + p{text-align: center;
     font-style: italic;}
+a:link {color:#1eb2f7e3;
+  text-decoration: none}
+a:visited {  color:#180e0e;}
+a:focus {color:#7a7a5f;
+  background-color: #cdcdcd;}
+a:hover {color:#7a7a5f;
+    background-color: #cdcdcd;}
+a:active {color:#181818;}
