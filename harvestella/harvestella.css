@@ -1,0 +1,27 @@
+body {background-color: #956850;
+    margin: 0 10%;
+    font-family: sans-serif;}
+h1 {color: #fdf294;
+    text-align: center;
+    font-family: "Zen+Dotse";
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f7ff83;
+    margin-top: 30px;}
+h2 {color: #f6ffb0;
+    font-size: 1em;
+    text-align: center}
+p{font-style: italic;
+    text-align: center;
+    color: rgb(235, 198, 48);}
+li{color: rgb(235, 198, 48);}
+th{color: rgb(255, 213, 105);}
+td{color: #f7ff83;}
+h2 + p{text-align: center;
+    font-style: italic;}
+a:visited {  color:#180e0e;}
+a:focus {color:#7a7a5f;
+  background-color: #cdcdcd;}
+a:hover {color:#7a7a5f;
+    background-color: #cdcdcd;}
+a:active {color:#181818;}
