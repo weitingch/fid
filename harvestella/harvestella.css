@@ -1,4 +1,4 @@
-body {background-color: #956850;
+body {background-color: #8e7b71;
     margin: 0 10%;
     font-family: sans-serif;}
 h1 {color: #fdf294;
@@ -17,8 +17,13 @@ p{font-style: italic;
 li{color: rgb(235, 198, 48);}
 th{color: rgb(255, 213, 105);}
 td{color: #f7ff83;}
+td, th { border: 1px solid rgb(141, 88, 32);
+    text-align: center;}
+table { border: 1px solid rgb(233, 198, 155);}
 h2 + p{text-align: center;
     font-style: italic;}
+.center {margin-left: auto;
+        margin-right: auto;}
 a:visited {  color:#180e0e;}
 a:focus {color:#7a7a5f;
   background-color: #cdcdcd;}
